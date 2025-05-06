@@ -1,11 +1,10 @@
-export interface Course {
+export interface Lesson {
   _id: string;
   title: string;
   slug: string;
   description: string;
-  status: string;
-  price: number;
+  orderNumber: number;
   createdAt: Date;
   updatedAt: Date;
-  authorId: string;
+  courseId: string;
 }
